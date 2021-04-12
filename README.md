@@ -1,5 +1,7 @@
 # README
 
+Basic backup app for the [Pokemon TCG API](https://docs.pokemontcg.io/).
+
 ## Installation
 
 ### Install ruby version
@@ -23,11 +25,3 @@ rbenv local 2.7.0
 ```bash
 bundle exec rspec
 ```
-
-## To see docs for code
-
-```bash
-yard server
-```
-
-visit http://localhost:8808
