@@ -26,7 +26,7 @@ module Cards
     end
 
     def api_query
-      '/v1/cards?setCode=base4'
+      '/v1/cards?setCode=base4&pageSize=50'
     end
 
     def cards
