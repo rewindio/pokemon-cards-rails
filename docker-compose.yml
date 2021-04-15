@@ -3,7 +3,7 @@ version: "3.9"
 
 services:
   app:
-    build: rewindio/pokemon-cards-rails
+    image: rewindio/pokemon-cards-rails
     container_name: pokemon-cards-rails
     command: scripts/start.sh
     volumes:
