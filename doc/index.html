@@ -57,34 +57,37 @@
         <div class="clear"></div>
       </div>
 
-      <div id="content"><div id='filecontents'>
-<h1 id="label-README">README</h1>
+      <div id="content"><div id='filecontents'><h1 id="readme">README</h1>
 
-<h2 id="label-Live+preview">Live preview</h2>
+<p>Basic backup app for the <a href="https://docs.pokemontcg.io/">Pokemon TCG API</a>.</p>
 
-<p><a href="https://drive.google.com/file/d/1RbveTPu3nlSct-uWk9qZ8Qp7HmUXoV34/view">preview video</a></p>
+<h2 id="installation">Installation</h2>
 
-<h1 id="label-Installation">Installation</h1>
+<h3 id="install-ruby-version">Install ruby version</h3>
 
-<h2 id="label-Install+ruby+version">Install ruby version</h2>
-
-<pre class="code ruby"><code class="ruby">rbenv install 2.7.0
+<p><code>bash
+rbenv install 2.7.0
 rbenv local 2.7.0
-</code></pre>
+</code></p>
 
-<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_bundle'>bundle</span> <span class='id identifier rubyid_install'>install</span>
- <span class='id identifier rubyid_rails'>rails</span> <span class='label'>db:</span><span class='id identifier rubyid_migrate'>migrate</span>
- <span class='id identifier rubyid_yarn'>yarn</span> <span class='id identifier rubyid_install'>install</span>
- <span class='id identifier rubyid_rails'>rails</span> <span class='id identifier rubyid_s'>s</span>
-</code></pre>
+<p>```bash
+ bundle install
+ yarn install</p>
 
-<h1 id="label-To+run+tests">To run tests</h1>
+<p>rails db:migrate</p>
 
-<p>bundle exec rspec</p>
+<p>rails s
+```</p>
+
+<h2 id="to-run-tests">To run tests</h2>
+
+<p><code>bash
+bundle exec rspec
+</code></p>
 </div></div>
 
       <div id="footer">
-  Generated on Mon Feb 15 15:54:29 2021 by
+  Generated on Thu Apr 15 08:17:33 2021 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
   0.9.26 (ruby-2.7.0).
 </div>

@@ -215,16 +215,16 @@
       <pre class="lines">
 
 
-7
-8
 9
-10</pre>
+10
+11
+12</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'app/controllers/cards_controller.rb', line 7</span>
+      <pre class="code"><span class="info file"># File 'app/controllers/cards_controller.rb', line 9</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_create'>create</span>
-  <span class='op'>::</span><span class='const'>Cards</span><span class='op'>::</span><span class='const'>Import</span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='period'>.</span><span class='id identifier rubyid_process'>process</span>
+  <span class='op'>::</span><span class='const'><span class='object_link'><a href="Cards.html" title="Cards (module)">Cards</a></span></span><span class='op'>::</span><span class='const'><span class='object_link'><a href="Cards/Import.html" title="Cards::Import (class)">Import</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'>new</span><span class='period'>.</span><span class='id identifier rubyid_process'><span class='object_link'><a href="Cards/Import.html#process-instance_method" title="Cards::Import#process (method)">process</a></span></span>
   <span class='id identifier rubyid_redirect_to'>redirect_to</span> <span class='id identifier rubyid_root_path'>root_path</span>
 <span class='kw'>end</span></pre>
     </td>
@@ -247,13 +247,13 @@
       <pre class="lines">
 
 
-12
-13
 14
-15</pre>
+15
+16
+17</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'app/controllers/cards_controller.rb', line 12</span>
+      <pre class="code"><span class="info file"># File 'app/controllers/cards_controller.rb', line 14</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_destroy'>destroy</span>
   <span class='op'>::</span><span class='const'><span class='object_link'><a href="Card.html" title="Card (class)">Card</a></span></span><span class='period'>.</span><span class='id identifier rubyid_destroy_all'>destroy_all</span>
@@ -279,13 +279,13 @@
       <pre class="lines">
 
 
-2
-3
 4
-5</pre>
+5
+6
+7</pre>
     </td>
     <td>
-      <pre class="code"><span class="info file"># File 'app/controllers/cards_controller.rb', line 2</span>
+      <pre class="code"><span class="info file"># File 'app/controllers/cards_controller.rb', line 4</span>
 
 <span class='kw'>def</span> <span class='id identifier rubyid_index'>index</span>
   <span class='ivar'>@q</span> <span class='op'>=</span> <span class='op'>::</span><span class='const'><span class='object_link'><a href="Card.html" title="Card (class)">Card</a></span></span><span class='period'>.</span><span class='id identifier rubyid_ransack'>ransack</span><span class='lparen'>(</span><span class='id identifier rubyid_params'>params</span><span class='lbracket'>[</span><span class='symbol'>:q</span><span class='rbracket'>]</span><span class='rparen'>)</span>
@@ -301,7 +301,7 @@
 </div>
 
       <div id="footer">
-  Generated on Mon Feb 15 15:54:29 2021 by
+  Generated on Thu Apr 15 08:17:33 2021 by
   <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
   0.9.26 (ruby-2.7.0).
 </div>
