@@ -1,0 +1,12 @@
+---
+version: "3.9"
+
+services:
+  app:
+    build: rewindio/pokemon-cards-rails
+    container_name: pokemon-cards-rails
+    command: scripts/start.sh
+    volumes:
+      - .:/app
+    ports:
+      - 3000:3000
