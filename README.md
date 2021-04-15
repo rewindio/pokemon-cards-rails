@@ -2,6 +2,12 @@
 
 Basic backup app for the [Pokemon TCG API](https://docs.pokemontcg.io/).
 
+## Docker Instructions
+
+```bash
+docker-compose up
+```
+
 ## Installation
 
 ### Install ruby version
